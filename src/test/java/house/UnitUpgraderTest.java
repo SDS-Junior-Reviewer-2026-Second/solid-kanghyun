@@ -5,6 +5,10 @@ import house.Studio;
 import house.UnitUpgrader;
 
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class UnitUpgraderTest {
     @Test
     public void testUpgraderIncreasesSquareFootageOfPenthouse() {
