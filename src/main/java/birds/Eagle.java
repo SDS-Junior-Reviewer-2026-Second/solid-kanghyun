@@ -1,6 +1,6 @@
 package birds;
 
-public class Eagle implements Bird {
+public class Eagle implements Bird, Flyable {
     String currentLocation;
     int numberOfFeathers;
 
@@ -8,10 +8,12 @@ public class Eagle implements Bird {
         this.numberOfFeathers = initialFeatherCount;
     }
 
+    @Override
     public void fly() {
         this.currentLocation = "in the air";
     }
 
+    @Override
     public void molt() {
         this.numberOfFeathers -= 1;
     }

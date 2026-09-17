@@ -1,7 +1,5 @@
 package birds;
 
 public interface Bird {
-    public void fly();
-
-    public void molt();
+    void molt();
 }
